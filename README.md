@@ -1,4 +1,4 @@
-- [DEMO LINK](https://Ihor-Prodan.github.io/game-2048/)
+- [DEMO LINK](https://Ihor-Prodan.github.io/game-Js-2048/)
 - Project Description: 2048 Game in JavaScript
   Overview
     The 2048 game is a popular single-player sliding block puzzle game. The objective is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
