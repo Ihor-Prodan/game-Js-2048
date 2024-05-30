@@ -1,13 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>2048</title>
+    <link
+      rel="stylesheet"
+      href="./styles/main.scss"
+    />
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <div class="container">
+      <div class="game-header">
+        <h1>2048</h1>
+        <div class="controls">
+          <p class="info">
+            Score:
+            <span
+              class="game-score"
+              id="game-score"
+            >
+              0
+            </span>
+          </p>
+          <button
+            id="button-start"
+            class="button button--start"
+          >
+            <span class="button__text">Start</span>
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="game-board"
+        class="game-board"
+      ></div>
+
+      <div class="message-container">
+        <p
+          id="message-lose"
+          class="message message--hidden"
+        >
+          You lose! Restart the game?
+        </p>
+        <p
+          id="message-win"
+          class="message message--win message--hidden"
+        >
+          Winner! Congrats! You did it!
+        </p>
+        <p
+          id="message-start"
+          class="message message--start"
+        >
+          Press "Start" to begin game. Good luck!
+        </p>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="scripts/main.js"
+    ></script>
   </body>
 </html>

@@ -1,4 +1,19 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+- [DEMO LINK](https://Ihor-Prodan.github.io/game-2048/)
+- Project Description: 2048 Game in JavaScript
+  Overview
+    The 2048 game is a popular single-player sliding block puzzle game. The objective is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
+
+  Features
+    Simple and Intuitive UI: The game features a minimalist design that makes it easy for users to understand and play.
+    Responsive Controls: Users can move tiles using keyboard arrow keys or swipe gestures (on touch devices).
+    Dynamic Tile Generation: New tiles are generated after each move, ensuring the game remains challenging.
+    Score Tracking: The game keeps track of the player's score, updating it in real-time as tiles are combined.
+    Game Over Detection: The game detects when no more moves are possible and displays a "Game Over" message.
+    Winning Condition: The game congratulates the player when they achieve the 2048 tile.
+  
+Technologies Used
+  HTML: Provides the basic structure of the game grid and user interface.
+  CSS: Adds styling and visual appeal to the game, ensuring a pleasant user experience.
+  JavaScript: Implements the game logic, including tile movements, score calculation, and win/lose conditions.
+
+This project showcases fundamental JavaScript skills, including DOM manipulation, event handling, and basic game development concepts.
